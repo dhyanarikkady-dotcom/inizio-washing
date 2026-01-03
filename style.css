@@ -27,6 +27,45 @@ nav {
 .logooo{
     text-decoration: none;
 }
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons a {
+    width: 32px;
+    height: 32px;
+    background: wheat;
+    color: var(--primary-blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 18px;
+    transition: 0.5s ease-in-out;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    transform:scale(1.1);
+}
+
+/* Brand colors on hover */
+.social-icons .whatsapp:hover {
+    background: #25D366;
+    color: white;
+}
+
+.social-icons .instagram:hover {
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    color: white;
+}
+
+.social-icons .youtube:hover {
+    background: #FF0000;
+    color: white;
+}
+
 .car-img {
     background-image: url('ex.jpg');
 }
@@ -67,7 +106,7 @@ nav {
 }
 .btn-main:hover { background: var(--white); color: var(--highlight-blue); }
 
-.btn-whatsapp { background: #25d366; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold; }
+.btn-whatsapp { background:#BA8E23; color: rgb(0, 0, 0); padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold; }
 .btn-whatsapp:hover{background-color: #ddd; transition: 0.4s ease-in-out; color: #0d1b2a;}
 .services { padding: 80px 8%; text-align: center; }
 .section-title { font-family: 'Playfair Display', serif; font-size: 36px; margin-bottom: 50px; color: var(--primary-blue); }
