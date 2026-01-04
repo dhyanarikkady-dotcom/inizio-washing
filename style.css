@@ -18,7 +18,7 @@ body { background-color: var(--light-gray); color: var(--text-main); }
 nav {
     display: flex; justify-content: space-between; align-items: center;
     padding: 15px 8%; background: var(--primary-blue);
-    position: sticky; top: 0; z-index: 1000; box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    position: sticky; top: 0; z-index: 1000; box-shadow: 0 4px 10px rgba(0,0,0,0.1);width: 187vh;
 }
 /* Service Card Images */
 .bike-img {
